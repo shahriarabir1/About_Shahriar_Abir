@@ -90,7 +90,7 @@ const Encryption = () => {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 200, damping: 20 }}
-          className="absolute z-[20] flex flex-col items-center justify-center"
+          className="absolute z-[20] flex flex-col items-center justify-center top-20"
         >
           <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
             {currentProjects.map((item, index) => (
@@ -122,7 +122,7 @@ const Encryption = () => {
         </motion.div>
       )}
 
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
+      <div className="absolute z-[20] bottom-[10px] px-[5px] sm:flex hidden">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
           Certified Engineer
         </div>

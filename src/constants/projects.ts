@@ -52,7 +52,7 @@ export const projects = [
     description:
       "This is a portfolio project which is mainly done for portfolio practice and done in react vite and three js",
 
-    link: "https://github.com/shahriarabir1/milkiway_Galaxy",
+    link: "https://stupendous-alpaca-f4866a.netlify.app/",
   },
   {
     src: ["goblin.png"],
