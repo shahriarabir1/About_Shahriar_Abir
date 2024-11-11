@@ -49,7 +49,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href="#about-me"
+              href="#contact"
               className="cursor-pointer hover:text-green-400"
             >
               Contact

@@ -1,3 +1,4 @@
+import Contact from "@/components/main/Contact";
 import Encryption from "@/components/main/Encryption";
 import Experiences from "@/components/main/Experiences";
 import Hero from "@/components/main/Hero";
@@ -13,6 +14,7 @@ export default function Home() {
         <Projects />
         <Encryption />
         <Experiences />
+        <Contact />
       </div>
     </main>
   );

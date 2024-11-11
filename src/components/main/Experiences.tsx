@@ -3,7 +3,10 @@ import ExperienceCard from "../sub/ExperienceCard";
 import { experience } from "@/constants/experience";
 const Experiences = () => {
   return (
-    <div className="relative z-[30] flex flex-col items-center justify-center py-20">
+    <div
+      className="relative z-[30] flex flex-col items-center justify-center py-20"
+      id="experiences"
+    >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Job Experiences
       </h1>
