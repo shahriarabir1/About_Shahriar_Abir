@@ -18,10 +18,29 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Shahriar Abir",
-  description: "Created By Shahriar Abir",
-  icons: {
-    icon: "./navic.png",
+  title: "Shahriar Abir | Software Engineer & Data Scientist",
+  description:
+    "Portfolio of Shahriar Abir, a software engineer and data science expert specializing in machine learning, deep learning, and modern web development.",
+  icons: { icon: "./navic.png" },
+  keywords: [
+    "Shahriar Abir",
+    "software engineer",
+    "data science",
+    "machine learning",
+    "CUET",
+    "java",
+    "spring boot",
+    "spring security",
+    "shahriar abir",
+    "software developer",
+    "react",
+    "next",
+    "deep learning",
+    "gis",
+  ],
+  authors: {
+    name: "Shahriar Abir",
+    url: "https://www.linkedin.com/in/shahriar-abir-995a791b7/",
   },
 };
 
@@ -36,9 +55,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
-        <Navbar />
-        {children}
-        <Footer />
+        <header>
+          <Navbar />
+        </header>
+        <main>{children}</main>
+        <footer>
+          <Footer />
+        </footer>
       </body>
     </html>
   );
