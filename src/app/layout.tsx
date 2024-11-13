@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   ],
   authors: {
     name: "Shahriar Abir",
-    url: "https://www.linkedin.com/in/shahriar-abir-995a791b7/",
+    url: "https://www.linkedin.com/in/shahriar-1905008-abir/",
   },
 };
 

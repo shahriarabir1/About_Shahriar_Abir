@@ -35,7 +35,7 @@ export const Socials = [
   {
     name: "Linkedin",
     src: "/2linkedin.svg",
-    link: "https://www.linkedin.com/in/shahriar-abir-995a791b7/",
+    link: "https://www.linkedin.com/in/shahriar-1905008-abir/",
   },
   {
     name: "Github",

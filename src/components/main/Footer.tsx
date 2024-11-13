@@ -14,7 +14,7 @@ const Footer = () => {
               Community
             </div>
             <Link
-              href="https://www.linkedin.com/in/shahriar-abir-995a791b7/"
+              href="https://www.linkedin.com/in/shahriar-1905008-abir/"
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <FaLinkedin />
