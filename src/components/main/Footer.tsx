@@ -59,11 +59,11 @@ const Footer = () => {
               About
             </div>
             <Link
-              href="https://www.facebook.com/raqamiuniverse"
+              href="https://www.facebook.com/iio.infinity.io"
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <span className="text-[15px] ml-[6px]">
-                Founder of Raqami Universe
+                Founder of Infinity.io
               </span>
             </Link>
             <Link
